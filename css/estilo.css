@@ -1,0 +1,83 @@
+.fa-linkedin {
+  background-color: blue;
+}
+
+.fa-instagram {
+  background-color: violet;
+}
+
+.fa-whatsapp {
+  background-color: green;
+}
+
+section {
+  background: rgb(79, 26, 140);
+  background: radial-gradient(circle, rgb(79, 26, 140) 0%, rgba(7, 12, 74, 0.950017507) 100%);
+  text-align: center;
+  border-bottom: 5px solid goldenrod;
+  border-top: 5px solid goldenrod;
+  color: white;
+}
+
+h2 {
+  font-style: italic;
+  color: white;
+}
+
+h3 {
+  color: goldenrod;
+  font-style: italic;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+div p {
+  margin-left: 15px;
+  margin-top: 20px;
+}
+div p:hover {
+  color: blue;
+}
+
+.btn-div {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+label:hover {
+  color: blueviolet;
+}
+
+.img src {
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.img src a {
+  margin-left: 10px;
+}
+
+input:hover {
+  background-color: rgba(7, 12, 74, 0.950017507);
+  color: white;
+}
+
+li:hover {
+  color: blue;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-style: normal;
+  color: white;
+  background-image: linear-gradient(to bottom, rgb(62, 25, 131), rgb(62, 25, 31));
+  font-weight: bold;
+  border-bottom: 5px solid goldenrod;
+  border-top: 5px solid goldenrod;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=estilo.css.map */
