@@ -34,13 +34,36 @@ section{
   h3{
     color: goldenrod;
     font-style: componentes.$font-style;
-    margin-top: componentes.$margin-top;
+    margin-top: 0;
     margin-left: componentes.$margin-left;
+    text-align: center;
+    width: 95%;
+    font-size: large;
   }
+  h4{
+    color: goldenrod;
+    font-style: componentes.$font-style;
+    margin-top: componentes.$margin-top;
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+  }
+  .text-center{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 35px;
+  }  
+  .contenido{
+    text-align: center;
+    padding-top: 20px;
+  } 
   div{
     p{
         margin-left: componentes.$margin-left;
         margin-top: componentes.$margin-top;
+        justify-self: center;
+        text-align: center;
     &:hover{
       color: blue;
     }
@@ -55,13 +78,7 @@ section{
         color: blueviolet;
     }
   }
-  .img src{
-    margin-left: 10px;
-    margin-top: componentes.$margin-top;
-    a{
-        margin-left: 10px;
-    }
-  }
+
   input{
     &:hover{
         background-color: rgba(7,12,74,0.9500175070028011);
@@ -72,6 +89,10 @@ section{
     &:hover{
         color: blue;
     }
+    text-align: left;
+    margin-top: auto;
+    padding-top: 10px;
+    vertical-align: middle;
   }
   footer{
     @include flex-row-center;
@@ -84,4 +105,39 @@ section{
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: componentes.$margin-top;
+  }
+.div el dos{
+  text-align: center;
+}
+  @media (min-width: 1024px){
+    .main{ 
+    grid-template-columns: auto auto auto;
+    }      
+    .d-none{
+        display: block;
+        padding: 10px;
+    }
+    .text-center{
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 300px;
+    }  
+    .footer_img{
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      width: 150px;
+      height: 180px;
+    }   
+    .footer_img_2{
+      text-align: center;
+      margin-top: 40px;
+      width: 150px;
+      height: 180px;
+    }   
+  }
+  h4{
+    text-align: left;
+    margin-left: 50px;
   }

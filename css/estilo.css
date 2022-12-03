@@ -27,13 +27,39 @@ h2 {
 h3 {
   color: goldenrod;
   font-style: italic;
-  margin-top: 20px;
+  margin-top: 0;
   margin-left: 15px;
+  text-align: center;
+  width: 95%;
+  font-size: large;
+}
+
+h4 {
+  color: goldenrod;
+  font-style: italic;
+  margin-top: 20px;
+  padding-top: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.text-center {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
+
+.contenido {
+  text-align: center;
+  padding-top: 20px;
 }
 
 div p {
   margin-left: 15px;
   margin-top: 20px;
+  justify-self: center;
+  text-align: center;
 }
 div p:hover {
   color: blue;
@@ -48,19 +74,17 @@ label:hover {
   color: blueviolet;
 }
 
-.img src {
-  margin-left: 10px;
-  margin-top: 20px;
-}
-.img src a {
-  margin-left: 10px;
-}
-
 input:hover {
   background-color: rgba(7, 12, 74, 0.950017507);
   color: white;
 }
 
+li {
+  text-align: left;
+  margin-top: auto;
+  padding-top: 10px;
+  vertical-align: middle;
+}
 li:hover {
   color: blue;
 }
@@ -78,6 +102,43 @@ footer {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: 20px;
+}
+
+.div el dos {
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .main {
+    grid-template-columns: auto auto auto;
+  }
+  .d-none {
+    display: block;
+    padding: 10px;
+  }
+  .text-center {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 300px;
+  }
+  .footer_img {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    width: 150px;
+    height: 180px;
+  }
+  .footer_img_2 {
+    text-align: center;
+    margin-top: 40px;
+    width: 150px;
+    height: 180px;
+  }
+}
+h4 {
+  text-align: left;
+  margin-left: 50px;
 }
 
 /*# sourceMappingURL=estilo.css.map */
